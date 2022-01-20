@@ -1,0 +1,180 @@
+
+body{
+  font-family:'Times New Roman', Times, serif;
+  width: auto;
+
+}
+
+header{
+  font-size: 15px;
+  width: 300px;
+  margin: 0 auto;
+
+  margin-bottom: 80px;
+  padding: 10px;
+}
+header h1{
+  text-align: center;
+  color:darkblue;
+  font-weight: bolder;
+}
+header p{
+  text-align: center;
+  color: black;
+}
+
+.main-container-sections{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+/* ################################################################### */
+
+.container-cuadrado{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  -webkit-box-shadow: -4px -3px 17px -3px #000000; 
+  box-shadow: -4px -3px 17px -3px #000000;
+  border-radius: 10px;
+}
+
+.container-cuadrado h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container-cuadrado label{
+  display: block;
+  color: darkgray;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.container-cuadrado input{
+  text-align:center;
+  display: block;
+  margin: 0 auto 1em auto;
+  width: 80%;  /*280px;*/
+  border: 1px solid #818181;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container-cuadrado .container-button{
+  display: flex;
+  justify-content: center;
+}
+
+.container-cuadrado button{
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: darkblue;
+  color: white;
+}
+
+/* ############################################################# */
+
+.container-triangulo{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  -webkit-box-shadow: -4px -3px 17px -3px #000000; 
+  box-shadow: -4px -3px 17px -3px #000000;
+  border-radius: 10px;
+}
+
+.container-triangulo h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container-triangulo label{
+  display: block;
+  color: darkgray;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.container-triangulo input{
+  text-align:center;
+  display: block;
+  margin: 0 auto 1em auto;
+  width: 80%;  /*280px;*/
+  border: 1px solid #818181;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container-triangulo .container-button{
+  display: flex;
+  justify-content: center;
+}
+
+.container-triangulo button{
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: darkblue;
+  color: white;
+}
+
+
+/* ############################################################## */
+
+.container-circulo{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  -webkit-box-shadow: -4px -3px 17px -3px #000000; 
+  box-shadow: -4px -3px 17px -3px #000000;
+  border-radius: 10px;
+}
+
+.container-circulo h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container-circulo label{
+  display: block;
+  color: darkgray;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.container-circulo input{
+  text-align:center;
+  display: block;
+  margin: 0 auto 1em auto;
+  width: 80%;  /*280px;*/
+  border: 1px solid #818181;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container-circulo .container-button{
+  display: flex;
+  justify-content: center;
+}
+
+.container-circulo button{
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+}
