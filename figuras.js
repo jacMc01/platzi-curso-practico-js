@@ -60,22 +60,45 @@ function calcular_area_cuadrado(){
 
 function calcular_perimetro_triangulo(){
   const input_1 = document.getElementById("input_lado1_triangulo");
-  const value_1 = input_1.value_1;
+  const value_1 = Number(input_1.value);
 
   const input_2 = document.getElementById("input_lado2_triangulo");
-  const value_2 = input_2.value_2;
+  const value_2 = Number(input_2.value);
 
   const base = document.getElementById("input_base_triangulo");
-  const value_3 = base.value_3;
+  const value_3 = Number(base.value);
 
-  const perimetro = calcular_perimetro_triangulo(value_1, value_2, value_3)
+  const perimetro = perimetro_triangulo(value_1, value_2, value_3)
   alert("El perimetro del triangulo es: " + perimetro);
   
 }
 function calcular_area_triangulo(){
-  const input = document.getElementById("input_cuadrado");
-  const value = input.value;
+  const input_1 = document.getElementById("input_lado1_triangulo");
+  const value_1 = Number(input_1.value);
 
-  const perimetro = perimetro_cuadrado(value);
+  const input_2 = document.getElementById("input_lado2_triangulo");
+  const value_2 = Number(input_2.value);
+
+  const base = document.getElementById("input_base_triangulo");
+  const value_3 = Number(base.value);
+
+  const area = area_triangulo(value_1, value_2, value_3);
+  alert("El area del triangulo es: " + area);
+}
+
+//CIRCULO
+
+function calcular_perimetro_circulo(){
+  const input = document.getElementById("input_radio_circulo");
+  const value = Number(input.value);
+
+  const perimetro = circunferencia_circulo(value);
   alert(perimetro);
+}
+function calcular_area_circulo(){
+  const input = document.getElementById("input_radio_circulo");
+  const value = Number(input.value);
+
+  const area = area_circulo(value);
+  alert(area);
 }
